@@ -1,0 +1,15 @@
+# Ignore virtual environments
+psp_env/
+venv/
+env/
+
+# Ignore raw downloaded NASA data
+psp_data/
+*.cdf
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
