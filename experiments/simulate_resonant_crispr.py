@@ -35,7 +35,8 @@ def simulate_acoustic_crispr(target_phase_alignment):
         qc.cz(3, 1)
         # Host is physically separated from the viral code
         qc.cx(0, 1) 
-        
+
+    qc.h()    
     qc.measure_all()
     return qc
 
